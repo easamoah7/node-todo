@@ -5,9 +5,9 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-  - task: UseNode@2
+  - task: UseNode@1
     inputs:
-      version: '18.x'
+      version: '14.x'
 
   - script: |
       npm install
