@@ -1,4 +1,4 @@
-name: Deploy Node Todo to Azure Web App
+name: Deploy Node Todo to Azure web App
 
 on:
   push:
